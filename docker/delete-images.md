@@ -1,10 +1,7 @@
-`docker rmi the_image`
-
-However, if you need to remove multiple you could use:
 
 Remove all images
 
-`docker rmi $(docker images -qf "dangling=true")`
+`docker rmi $(docker images -q)`
 
 Kill containers and remove them:
 
