@@ -7,3 +7,6 @@
 3. Make migrations after changes:
 
   `python manage.py makemigrations`
+4. Generate the database:
+
+  `python manage.py syncdb`
