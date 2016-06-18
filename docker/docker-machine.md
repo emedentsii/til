@@ -5,3 +5,7 @@ To create new docker machine with own insecure registry:
 Connect to machine:
 
 `$ eval $(docker-machine env docker_test)`
+
+Get machine ip
+
+`docker-machine ip`
