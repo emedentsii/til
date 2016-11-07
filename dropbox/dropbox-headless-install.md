@@ -12,7 +12,8 @@ To install, run the following command in your Linux terminal.
 
 Next, run the Dropbox daemon from the newly created .dropbox-dist folder.
 
-~/.dropbox-dist/dropboxd
+`~/.dropbox-dist/dropboxd`
+
 If you're running Dropbox on your server for the first time, 
 you'll be asked to copy and paste a link in a working browser 
 to create a new account or add your server to an existing account. 
