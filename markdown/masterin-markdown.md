@@ -32,7 +32,7 @@ by a blank line.
 
 
 Text attributes _italic_,
-**bold**, `monospace`.
+**bold**, `monospace`, *Emphasize*.
 
 
 
