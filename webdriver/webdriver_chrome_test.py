@@ -6,7 +6,7 @@ from selenium.webdriver.chrome.options import Options
 display = Display(visible=0, size=(800, 600))
 display.start()
 
-# now Firefox will run in a virtual display. 
+# now Chrome will run in a virtual display. 
 # you will not see the browser.
 try:
     chrome_options = Options()
