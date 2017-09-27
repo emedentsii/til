@@ -17,3 +17,7 @@ You could use grep to remove all except my-image and ubuntu
 Remove all untagged images
 
 `docker rmi $(docker images -q --filter "dangling=true")`
+
+Remove all exited containers 
+
+`sudo docker rm $(sudo docker ps -aq -f status=exited)`
